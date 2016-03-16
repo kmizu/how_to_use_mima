@@ -4,6 +4,8 @@ name := "how_to_use_mima"
 
 scalaVersion := "2.11.8"
 
+resolvers += "Sonatype Releases" at "https://oss.sonatype.org/content/repositories/releases/"
+
 mimaPreviousArtifacts := Set("com.github.kmizu" % "how_to_use_mima_2.11" % "0.0.1")
 
 publishMavenStyle := true
